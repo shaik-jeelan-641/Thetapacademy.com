@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thetapacademy.com</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/de_h43gjs.png">
+
+</head>
+
+<body>
+    <section id="icons">
+        <div class="number">
+            <i class="fas fa-phone phone"><a href="">8069878321</a></i>
+            <div class="social-icons">
+                <i class="fas fa-envelope mail"><a href="">hello@thetapacademy.com </a></i>
+                <a href="https://www.youtube.com/tapacademy"><i class="fab fa-youtube red"></i></a>
+                <a href="https://www.instagram.com/tapacademy.online/"><i class="fab fa-instagram pink"></i></a>
+                <a href="https://m.facebook.com/profile.php/?id=100069107466209&name=xhp_nt__fb__action__open_user"><i
+                        class="fab fa-facebook blue"></i></a>
+                <a href="https://www.linkedin.com/company/thetapacademy/?originalSubdomain=in"><i
+                        class="fab fa-linkedin linkedin"></i></a>
+
+            </div>
+        </div>
+    </section>
+    <section id="header">
+        <a href="#" class="" id=""><img src="images/taplogo.png" class="logo" alt=""></a>
+
+        <div class="down">
+            <ul id="navbar">
+
+
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="course.html">Course <i class="fas fa-caret-down "></i> </a>
+                    <div class="dropdown_menu">
+                        <ul>
+                            <li><a href="fullstack.html">
+                                    <p>Full Stack Web Development</p>
+                                </a></li>
+                            <li><a href="dsa.html">
+                                    <p>Data Structures and Algorithms</p>
+                                </a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="placements.html">Placements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="lms.html"> <button class="n-1" style="border: 1px solid #222;">Try For Free</button></a>
+
+                <a href="#" id="close"><i class="fa fa-arrow-alt-left"></i></a>
+
+
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="lms.html"> <button class="n-1" style="border: 1px solid #222;">Try For Free</button></a>
+            <i id="bar" class="fa fa-bars"></i>
+        </div>
+
+    </section>
+
+    <section id="go-back">
+        <a href="#" id="get-back"><i class="fa fa-arrow-alt-left"> Go-Back</i></a>
+    </section>
+
+    <script>
+        document.getElementById("get-back").addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default action of the anchor tag
+            window.history.back();   // Go back to the previous page
+        });
+    </script>
+
+    <section id="join-demo" class="section-p1">
+        <div class="joindemo">
+            <div class="demoregis">
+                <h2>Register For 5 Days Free Demo Classes</h2><br>
+                <form action="https://formsubmit.co/be9bc54086e62a088cb34fd30e2b8bf2" method="POST">
+                   
+                    <h5> Name <span style="color: red;">*</span> </h5>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                    
+                    <h5>Email <span style="color: red;">*</span> </h5>
+                    <input type="email" name="email" id="email" placeholder="Enter Your email" required>
+                    
+                    <h5>Mobile Number <span style="color: red;">*</span> </h5>
+                    <input type="mobilenumber" name="number" id="number" pattern="[6-9]{1}[0-9]{9}"placeholder="10digit Phn number" required>
+                    
+                    <h5>Message  </h5>
+                    <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
+                    
+                    <h5>Higest Qualification <span style="color: red;">*</span> </h5>
+                    <select name="UG/PG"  id="UG/PG" required  >
+                        <option value="UG/PG">Select Degree(UG/PG)</option>
+                        <option value="B.TECH">B.TECH</option>
+                        <option value="BE">BE</option>
+                        <option value="M.TECH">M.TECH</option>
+                        <option value="DEGREE">DEGREE</option>
+                        
+                    </select>
+
+                    <h5>Specialization <span style="color: red;">*</span> </h5>
+                    <select name="sp" id="sp" required  >
+                        <option value="Specialization">Select Streem</option>
+                        <option value="ECE">ECE</option>
+                        <option value="CSE">CSE</option>
+                        <option value="CIVIL">CIVIL</option>
+                        <option value="MECH">MECH</option>
+                        <option value="Ai&ML">Ai&ML</option>
+                        <option value="EEE">EEE</option>
+                        <option value="B.COM">B.COM</option>
+                        
+                    </select>
+                    <h5>Year of Passout <span style="color: red;">*</span> </h5>
+
+                    <select name="YOP" id="YOP" required>
+                        <option value="select option">Select year of passout</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        
+                        
+                    </select>
+                    <h5>State <span style="color: red;">*</span> </h5>
+                    <select name="states" id="states" required>
+                        <option value="sp">select option</option>
+                        <option value="Andhra pradesh"> Andhra pradesh</option>
+                        
+                        <option value="Telangana"> Telangana</option>
+                        <option value="Karnataka"> Karnataka</option>
+                    </select>
+
+                    <h5>Gender <span style="color: red;">*</span> </h5>
+                    <input type="radio" name="gender" valu="m" required>Male
+                    <input type="radio" name="gender" value="f">Female
+                    <input type="radio" name="gender" value="c">Custom
+                   
+
+                    <h5>Select Course<span style="color: red;">*</span> </h5>
+                    <select name="course" id="courses" required >
+                        <option value="sp">select option</option>
+                        <option value="JFWDM">Java Full Stack Web development</option>
+                        <option value="PFWDM">Python Full Stack Web development</option>
+                        <option value="DVPS">Data Structure and Algorithms</option>
+                    </select>
+
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="submit" value="Send Message">
+
+
+                </form>
+            </div>
+            <div class="demoimg">
+               
+                <h3>Join Free Demo Classes</h3>
+
+                <img src="images/bgdsa.png"  alt="">
+                <p class="text">Tap Academy's full stack web developer course is designed using AR and has industry required skills which will 
+                    make you job ready. Our full stack web developer course also comes with an additional incentive of providing placements as you 
+                    learn the course
+                </p>
+            </div>`
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <h3>TapAcademy</h3>
+            <p><i class="fas fa-map-marker-alt"></i> 16th main Road BTM lay-Out (second Stage) Banglore (Karnataka)</p>
+            <p> <i class="fas fa-phone"></i> 08069878321</p>
+            <p> <i class="fas fa-envelope"></i> hello@thetapacademy.com</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="social-icons">
+
+                    <a href="https://www.youtube.com/tapacademy"><i class="fab fa-youtube red"></i></a>
+                    <a href="https://www.instagram.com/tapacademy.online/"><i class="fab fa-instagram pink"></i></a>
+                    <a href="https://m.facebook.com/profile.php/?id=100069107466209&name=xhp_nt__fb__action__open_user"><i
+                    class="fab fa-facebook blue"></i></a>
+                    <a href="https://www.linkedin.com/company/thetapacademy/?originalSubdomain=in"><i
+                            class="fab fa-linkedin linkedin"></i></a>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Useful links</h4>
+            <a href="index.html">Home</a>
+            <a href="course.html">Course</a>
+            <a href="reviews.html">Students Reviews</a>
+            <a href="blog.html"> Blogs</a>
+            <a href="placements.html">placements</a>
+            <a href="contact.html">Contact</a>
+
+
+        </div>
+        <div class="col">
+            <h4>Policy</h4>
+            <a href="#">privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Refunds / Cancellation</a>
+
+        </div>
+        <div class="cal install">
+            <h4>Install App</h4>
+            <p>From App Store or Google play</p>
+            <div class="row">
+                <img src="images/app.jpg" alt="">
+                <a href="https://play.google.com/store/apps/details?id=com.thetapacademy.learn&pcampaignid=web_share"><img
+                        src="images/play.jpg" alt=""></a>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>@ Shaik Jeelan BTech Graduated(2023). Familir on Front-End-Technologies</p>
+        </div>
+
+    </footer>
+
+    <footter id="regis">
+        <div class="join">
+            <div class="join-java">
+                <h5>Join Full Stack Development Free Workshop</h5>
+            </div>
+            <button class="n-4"><i class="fas fa-caret-right"></i>Register Now</button>
+        </div>
+    </footter>
+
+
+    <script src="script.js"></script>
+    <script src="scriptnavbar.js"></script>
+    <script src="scriptnumberani.js"></script>
+
+    <script src="scriptplace.js"></script>
+
+
+</body>
+
+
+</html>
