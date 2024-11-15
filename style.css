@@ -410,7 +410,7 @@ button.n-1:hover {
 }
 
 #feature .fe-box:hover {
-    box-shadow: 10px 10px 50px rgba(17, 53, 199, 0.9);
+    box-shadow: 0 0  20px rgba(17, 53, 199, 0.9);
 
 
 }
@@ -1615,14 +1615,7 @@ button i {
     padding: 20px 40px;
 }
 
-.fe-box button {
-    margin-top: 10px;
-}
 
-.fe-box:hover button {
-    background-color: #088178;
-
-}
 
 #dsa-newsletter {
     border: 1px solid #222;
