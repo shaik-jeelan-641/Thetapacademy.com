@@ -1,6 +1,6 @@
 # I've Developed a Course Website
 
-## <p>Live: <a style=" text-decoration:none;" href="https://shaik-jeelan-641.github.io/Thetapacademy.com/">https://shaik-jeelan-641.github.io/Thetapacademy.com/</a></p>
+## <p>Live: <a style=" text-decoration:none;" href="https://tap-acadamy-unofficial-fd515b.netlify.app/">https://tap-acadamy-unofficial-fd515b.netlify.app/</a></p>
 
 # Skills Used
 - JavaScript
