@@ -899,6 +899,9 @@ footer .copyright {
 .drive img {
     width: 150px;
     padding: 5px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
 }
 
 .drives {
@@ -3002,6 +3005,7 @@ form h5 {
     .drive img {
         width: 80px;
         padding: 10px;
+        
     }
 
 
