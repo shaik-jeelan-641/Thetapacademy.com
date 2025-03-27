@@ -2006,7 +2006,7 @@ button i {
     box-shadow: 0 0 7px #0B87D3;
 }
 
-.enter-details textarea {
+.enter-details textarea:hover {
     box-shadow: 0 0 7px #0B87D3;
 
 }
