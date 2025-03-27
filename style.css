@@ -1998,6 +1998,7 @@ button i {
     border: none;
     outline: none;
     border: 1px solid #222;
+    box-shadow: 0 0 7px #0B87D3;
 }
 
 .enter-details textarea {
